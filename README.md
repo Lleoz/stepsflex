@@ -9,6 +9,10 @@ boxInActive
 boxSucessful
 ```
 **boxActive**: Se utiliza en el paso activo.
+
 **boxInActive**: Se utiliza en los pasos futuros que no han sido activados.
+
 **boxSucessful**: Se utiliza en los pasos pasados que se cumplieron correctamente.
+
+El ejemplo se puede ver en [EJEMPLO STEPS](https://codepen.io/lleoz/pen/xxwWxjd)
 
