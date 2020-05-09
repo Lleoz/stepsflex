@@ -1,0 +1,90 @@
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    min-height: 172px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: thin solid #c3c3c3;
+    width: 100%;
+  }
+  .boxActive {
+    width: 80px;
+    height: 80px;
+    border: 4px solid #f3f3f3;
+    background-color: #24abe2;
+    flex-shrink: 0;
+    border-radius: 50%;
+    z-index: 1;
+    margin: 50px;
+  }
+  
+  .boxInActive {
+    width: 80px;
+    height: 80px;
+    border: 4px solid #f3f3f3;
+    background-color: #b3b3b3;
+    flex-shrink: 0;
+    border-radius: 50%;
+    z-index: 1;
+    margin: 50px;
+  }
+  
+  .boxSucessful {
+    width: 80px;
+    height: 80px;
+    border: 4px solid #f3f3f3;
+    background-color: #81ba00;
+    flex-shrink: 0;
+    border-radius: 50%;
+    z-index: 1;
+    margin: 50px;
+  }
+  
+  .numeroPaso {
+    position: relative;
+    top: 30%;
+    left: 41%;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+  }
+  
+  .numeroPaso .fa {
+    position: relative;
+    top: 0px;
+    left: -4px;
+    font-size: 2rem;
+    font-weight: 800;
+    font-weight: bolder;
+    color: #fff;
+  }
+  
+  .nombrePaso {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .lineaPasos {
+      position: relative;
+    /* Mover este valor hasta que coincida visualmente */
+      width: 70%;
+      height: 7px;
+      background-color: #999;
+      align-items: center;
+      box-sizing: border-box;
+    /* Mover este valor hasta que coincida visualmente */
+      top: -95px;
+  }
+  
+  .alineacionLabel {
+    text-align: right;
+  }
+    
